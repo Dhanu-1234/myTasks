@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create-task-container {
+  background-color: #1a171d;
+  height: 100%;
+  width: 30%;
+  padding: 30px 60px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.create-task-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 40px;
+  align-self: center;
+}
+
+.label-styles {
+  color: #f8f8f8;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input-styles {
+  color: #64748b;
+  width: 90%;
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-width: 0px;
+  outline: none;
+  margin-bottom: 40px;
+}
+
+.add-task-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 10px 25px 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 6px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.display-tasks-container {
+  background-color: #000000;
+  height: 100%;
+  width: 70%;
+  padding: 30px 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  color: #f8f8f8;
+  font-family: 'Roboto';
+}
+
+.tags-list {
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.no-task {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.tasks-list {
+  width: 90%;
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

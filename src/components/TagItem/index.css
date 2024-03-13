@@ -1,0 +1,25 @@
+.tag-item {
+  margin: 5px;
+}
+
+.active-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 7px 20px 7px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.inactive-btn {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 7px 20px 7px;
+  font-family: 'Roboto';
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f3aa4e;
+  border-radius: 20px;
+  cursor: pointer;
+}
